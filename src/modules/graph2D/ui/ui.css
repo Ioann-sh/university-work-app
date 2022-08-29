@@ -1,0 +1,91 @@
+.add {
+    color: #0B172A;
+    font-family: Georgia, serif ;
+    border: solid #463940 2px;
+    text-align: center;
+    background-color: #BC4123;
+    margin: 1%;
+    border-radius: 6px;
+    font-weight: bolder;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+ }
+
+.add:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #463940;
+    color: #BC4123;
+}
+
+.draw {
+    display: table-cell;
+    color: #0B172A;
+    font-family: Georgia, serif;
+    border: solid #463940 2px;
+    text-align: center;
+    background-color: #BC4123;
+    border-radius: 6px;
+    width: 400px;
+    height: 100%;
+    font-weight: bolder;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.draw:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #463940;
+    color: #BC4123;
+}
+
+
+.graph2D_panel {
+    /*
+    width: 310px;
+    padding-left: 10px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background: #ffc8fc;
+    z-index: 2;
+    */
+    color: #0B172A;
+    font-family: Georgia, serif ;
+    border: solid #463940 2px;
+    text-align: center;
+    background-image: url('/src/images/backgroundHeader.jpg');
+    margin: 1%;
+    border-radius: 6px;
+    width: 400px;
+    height: 100%;
+    background-size: auto;
+
+}
+
+.close {
+    color: #0B172A;
+    font-family: Georgia, serif ;
+    border: solid #463940 2px;
+    text-align: center;
+    background-color: #BC4123;
+    margin: 1%;
+    border-radius: 6px;
+    font-weight: bolder;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.close:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #463940;
+    color: #BC4123;
+}

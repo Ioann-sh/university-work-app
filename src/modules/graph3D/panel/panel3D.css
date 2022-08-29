@@ -1,0 +1,62 @@
+.graph3D_panel{
+    color: #0B172A;
+    font-family: Georgia, serif ;
+    border: solid #463940 2px;
+    text-align: center;
+    display: inline-block;
+    margin: 1%;
+    border-radius: 6px;
+    width: 400px;
+    height: auto;
+    background-size: auto;
+    color: #BC4123;
+    background-image: url('/src/images/backgroundHeader.jpg');
+
+
+
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #0B172A;
+}
+
+.checkboxes{
+
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #0B172A;
+}
+
+.check3D{
+    content: '13';
+    text-align: center;
+    color: white;
+    line-height: 1em;
+    width: 1em;
+    height: 1em;
+    border: 2px inset #000;
+    border-radius: 0.25em;
+    margin: 0.25em;
+    display: inline-block;
+}
+
+.delate{
+    color: #0B172A;
+    font-family: Georgia, serif ;
+    border: solid #463940 2px;
+    text-align: center;
+    background-color: #BC4123;
+    margin: 1%;
+    border-radius: 6px;
+    width: 400px;
+    height: 20%;
+    font-weight: bolder;
+    float: left;
+    -webkit-transition-duration: 0.3s; /*4 Safari */
+    transition-duration: 0.3s;
+}
+
+.delate:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #463940;
+    color: #BC4123;
+}

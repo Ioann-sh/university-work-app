@@ -1,0 +1,26 @@
+.field{
+    color: #0B172A;
+    font-family: Georgia, serif ;
+    border: solid #463940 2px;
+    text-align: center;
+    background-color: #BC4123;
+    margin: 1%;
+    border-radius: 6px;
+    width: 400px;
+    height: 20%;
+    font-weight: bolder;
+    float: left;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.field:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #463940;
+    color: #BC4123;
+}
+
+
+
